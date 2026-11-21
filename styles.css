@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+.holder {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.item {
+	width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 60px;
+	font-weight: 500;
+}
+
+#one {
+	background-color: red;
+}
+
+#two {
+	background-color: blue;
+}
+
+#three {
+	background-color: green;
+}
